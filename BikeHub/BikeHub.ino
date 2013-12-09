@@ -1,8 +1,8 @@
 
 #define TOTAL_PLAYERS 4
 
-int digitalPins[] = { 2, 3, 4, 5 };
-int analogPins[] = { A0, A1, A2, A3 };
+int wheelPins[] = { 3, 5, 7, 9 };
+int handlebarPins[] = { A0, A1, A2, A3 };
 
 
 void setup()
@@ -10,7 +10,7 @@ void setup()
   Serial.begin(9600);
  
   for (int i = 0; i < TOTAL_PLAYERS; i++) {
-    pinMode(digitalPins[i], INPUT);
+    pinMode(wheelPins[i], INPUT);
   }
 }
 
@@ -20,9 +20,9 @@ void loop()
     if (i != 0) {
       Serial.print(" ");
     }
-    Serial.print( digitalRead(digitalPins[i]) );
+    Serial.print( digitalRead(wheelPins[i]) );
     Serial.print(" ");
-    Serial.print( analogRead(analogPins[i]) );
+    Serial.print( analogRead(handlebarPins[i]) );
   }
   Serial.println();
 }
