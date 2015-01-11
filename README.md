@@ -1,4 +1,11 @@
 Eletronic
 =========
 
-Jogo multiplayer que mistura a realidade com virtual, utilizando a mecânica clássica do autorama, projetado no chão com interação de objetos reais.
+Protocolo utilizado
+
+(status) (velocimetro) (encoder)
+
+Exemplo: 
+1 0 8
+1 1 120
+1 0 65524
