@@ -7,5 +7,5 @@ Protocolo utilizado
 
 Exemplos:  
 1 0 8  
-1 1 120  
-1 0 65524
+1 1 60  
+1 0 -20

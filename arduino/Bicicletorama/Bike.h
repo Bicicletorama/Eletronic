@@ -22,7 +22,7 @@ class Bike
     boolean wheelValue;
     boolean lastWheel;
 
-    unsigned int encoderPos;
+    int encoderPos;
     int lastEncoderState;
   
     Bike() 
