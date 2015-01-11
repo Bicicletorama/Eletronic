@@ -32,7 +32,7 @@ Pin 25 - Status
 #include "Bike.h"
 
 
-#define NUM_PLAYERS 1
+#define NUM_PLAYERS 4
 
 Bike bikes[NUM_PLAYERS];
 
